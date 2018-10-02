@@ -7,6 +7,7 @@ Want to know what kind of article you're about to read?
 ## ✨Article Classifier✨
 
 Classify articles based on Naive Bayes Classifier😆
+Trying to add CNN or RNN based classifier (if I can get more data)
 
 * [Installation](#installation)
 * [Quick Start](#quick-start)
