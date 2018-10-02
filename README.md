@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Toraudonn/ArticleAnalysis.svg?branch=master)](https://travis-ci.com/Toraudonn/ArticleAnalysis)
+
 # Article Analysis
 
 Want to know what kind of article you're about to read?
