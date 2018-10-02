@@ -1,0 +1,34 @@
+/* base.css */
+
+/* TODO: Make it beautiful using these colors */
+/* Color Pallet: */
+/* Base: 356F9F */
+/* Dark: 022440 */
+/* MidDark: 0C4879 */
+/* MidLight: 81ABCD */
+/* Light: F2F7FA */
+
+body, html {
+    height: 100%;
+}
+
+.title-detail, .success {
+    color: #F2F7FA;
+}
+
+.bg {
+    background-image: url('img/newspaper.jpg');
+    height: 60%;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 100px;
+}
+
+footer {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #0C4879;
+    background-color: #F2F7FA;
+}

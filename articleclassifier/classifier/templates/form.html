@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+<!-- HOME app/form.html -->
+{% load widget_tweaks %}
+
+{% block content %}
+<form class="form-inline justify-content-center" method="post" novalidate>
+    {% csrf_token %}
+    <div classs="row">
+        <div class="input-group">
+            {% render_field form.url size="80" class="form-control" placeholder="Type in the URL of the article here... (i.e., gunosy.com/articles/RSp3z)" %}
+            <div class="input-group-append">
+                <input type="submit" class="btn btn-danger" value="Classify🔎">
+            </div>
+        </div>
+    </div>
+    <!-- {% if form.url.help_text %}
+        <small class="form-text text-muted">Please input valid URL...</small>
+    {% endif %} -->
+</form>
+{% endblock content %}
